@@ -47,7 +47,7 @@ function drawBoard() {
         if (checkForWinner()) {
           //winner code
           state.gameFinished = true;
-          drawMessage("Congratulations , you WON!");
+          drawMessage(`Congratulations , ${state.symbols[0]} WON!`);
           //return
         }
         if (checkForDraw()) {
