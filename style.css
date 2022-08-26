@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DynaPuff; /* search arcade games font */
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: 300px;
+  gap: 5px;
+  margin: auto;
+  position: relative;
+  width: 920px;
+  margin-top: 25px;
+  /*margin-bottom: 25px;*/
+}
+.symbol {
+  color: papayawhip;
+  font-size: 200px;
+  text-align: center;
+  line-height: 300px;
+}
+.cell {
+  background-color: #006400;
+}
+.banner {
+  position: absolute;
+  background-color: pink;
+  width: 1200px;
+  margin-left: -140px;
+  height: 400px;
+  margin-top: 250px;
+  opacity: 95%;
+}
+.banner h1 {
+  color: gray;
+  text-align: center;
+  line-height: 400px;
+  font-size: 80px;
+}
