@@ -14,7 +14,7 @@
   position: relative;
   width: 920px;
   margin-top: 25px;
-  /*margin-bottom: 25px;*/
+  margin-bottom: 25px;
 }
 .symbol {
   color: papayawhip;
@@ -39,4 +39,14 @@
   text-align: center;
   line-height: 400px;
   font-size: 80px;
+}
+
+.button {
+  background-color: #008b8b;
+  color: papayawhip;
+  font-size: 25px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
