@@ -23,7 +23,7 @@
   line-height: 300px;
 }
 .cell {
-  background-color: #006400;
+  background-color: #038aac;
 }
 .banner {
   position: absolute;
@@ -42,7 +42,7 @@
 }
 
 .button {
-  background-color: #008b8b;
+  background-color: #038aac;
   color: papayawhip;
   font-size: 25px;
   margin: auto;
